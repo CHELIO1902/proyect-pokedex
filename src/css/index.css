@@ -1,0 +1,119 @@
+body {
+   background: linear-gradient(
+      to bottom left,
+      hsl(45.91, 100%, 45.1%) 0%,
+      hsl(45.37, 72.61%, 53.19%) 5.9%,
+      hsl(47.44, 64.14%, 55.6%) 11.9%,
+      hsl(50.93, 55.48%, 57.02%) 18%,
+      hsl(56.32, 46.63%, 57.9%) 24.2%,
+      hsl(64.46, 41.91%, 59.66%) 30.6%,
+      hsl(74.62, 41.44%, 62.41%) 37.1%,
+      hsl(86.79, 41.12%, 64.98%) 43.7%,
+      hsl(101.34, 40.93%, 67.43%) 50.4%,
+      hsl(118.75, 40.87%, 69.77%) 57.2%,
+      hsl(134.84, 47.95%, 68.26%) 64.1%,
+      hsl(145.8, 55.09%, 66.22%) 71.1%,
+      hsl(153.71, 61.82%, 63.78%) 78.2%,
+      hsl(159.72, 68.21%, 60.72%) 85.4%,
+      hsl(164.55, 74.39%, 56.47%) 92.6%,
+      hsl(169.83, 100%, 45.1%) 100%
+    );
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* inicio boton buscar */
+.css-button-shadow-border-sliding--yellow {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #0b43fd;
+ z-index: 1;
+}
+.css-button-shadow-border-sliding--yellow:hover:after {
+  width: 100%;
+  left: 0;
+}
+.css-button-shadow-border-sliding--yellow:after {
+  border-radius: 10px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #297460;
+  right: 0;
+}
+.css-button-shadow-border-sliding--yellow:active {
+  top: 2px;
+}
+/* fin boton buscar */
+
+
+.card {
+  
+  padding-left: 2%;
+  background: linear-gradient(
+      to bottom left,
+      hsl(45.91, 100%, 45.1%) 0%,
+      hsl(45.37, 72.61%, 53.19%) 5.9%,
+      hsl(47.44, 64.14%, 55.6%) 11.9%,
+      hsl(50.93, 55.48%, 57.02%) 18%,
+      hsl(56.32, 46.63%, 57.9%) 24.2%,
+      hsl(64.46, 41.91%, 59.66%) 30.6%,
+      hsl(74.62, 41.44%, 62.41%) 37.1%,
+      hsl(86.79, 41.12%, 64.98%) 43.7%,
+      hsl(101.34, 40.93%, 67.43%) 50.4%,
+      hsl(118.75, 40.87%, 69.77%) 57.2%,
+      hsl(134.84, 47.95%, 68.26%) 64.1%,
+      hsl(145.8, 55.09%, 66.22%) 71.1%,
+      hsl(153.71, 61.82%, 63.78%) 78.2%,
+      hsl(159.72, 68.21%, 60.72%) 85.4%,
+      hsl(164.55, 74.39%, 56.47%) 92.6%,
+      hsl(169.83, 100%, 45.1%) 100%
+    );
+}
+
+.navbar {
+  background: linear-gradient(
+      to bottom left,
+      hsl(45.91, 100%, 45.1%) 0%,
+      hsl(45.37, 72.61%, 53.19%) 5.9%,
+      hsl(47.44, 64.14%, 55.6%) 11.9%,
+      hsl(50.93, 55.48%, 57.02%) 18%,
+      hsl(56.32, 46.63%, 57.9%) 24.2%,
+      hsl(64.46, 41.91%, 59.66%) 30.6%,
+      hsl(74.62, 41.44%, 62.41%) 37.1%,
+      hsl(86.79, 41.12%, 64.98%) 43.7%,
+      hsl(101.34, 40.93%, 67.43%) 50.4%,
+      hsl(118.75, 40.87%, 69.77%) 57.2%,
+      hsl(134.84, 47.95%, 68.26%) 64.1%,
+      hsl(145.8, 55.09%, 66.22%) 71.1%,
+      hsl(153.71, 61.82%, 63.78%) 78.2%,
+      hsl(159.72, 68.21%, 60.72%) 85.4%,
+      hsl(164.55, 74.39%, 56.47%) 92.6%,
+      hsl(169.83, 100%, 45.1%) 100%
+    );
+}
+
+.container {
+  display: block;
+  padding-top: 70px;
+}
